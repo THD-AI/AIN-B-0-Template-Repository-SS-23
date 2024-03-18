@@ -14,4 +14,4 @@ We pledge to provide a harassment-free experience for everyone, regardless of ag
 
 ## Reporting Violations:
 
-If you witness or are subject to unacceptable behavior, please report it to @HlexNC.
+If you witness or are subject to unacceptable behavior, please report it to hlexhelftd@gmail.com.
