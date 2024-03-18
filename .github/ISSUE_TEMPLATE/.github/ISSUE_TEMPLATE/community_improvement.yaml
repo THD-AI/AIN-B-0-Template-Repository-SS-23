@@ -1,0 +1,63 @@
+name: Community Improvement
+description: Suggest improvements to the THD-AI-2023 community.
+title: "[IMPROVEMENT]"
+labels: ["enhancement"]
+assignees: 
+  - HlexNC
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for taking the time to suggest an improvement for the THD-AI-2023 community. Please fill out the details below to help us understand and prioritize your suggestion."
+  - type: textarea
+    attributes:
+      label: Improvement Description
+      description: "Describe the improvement in detail. Be specific and include examples if possible."
+      placeholder: "Describe the improvement..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why Is This Important?
+      description: "Explain the impact of this improvement on the community. How does it solve a problem or enhance the community experience?"
+      placeholder: "Explain the importance..."
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Improvement Category
+      description: "Choose a category for this improvement."
+      options:
+        - Documentation
+        - Tooling
+        - Community Engagement
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Possible Implementation
+      description: "Share any ideas on how this improvement might be implemented. Include any technical details or references to similar improvements."
+      placeholder: "Suggest how to implement..."
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Priority
+      description: "How urgent is this improvement? (Low, Medium, High)"
+      placeholder: "Enter priority..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: "Provide any other details, links, or screenshots that might be helpful."
+      placeholder: "Any other information..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Feedback on Previous Suggestions
+      description: "If applicable, describe how your suggestion aligns with previously suggested improvements."
+      placeholder: "Feedback on previous suggestions..."
+    validations:
+      required: false
